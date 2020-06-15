@@ -10,10 +10,10 @@ public class testController {
 
     @RequestMapping("hello")
     public String helloWord(){
-        int value = 120;
-        for(int i=0; i<5; i++){
-            value++;
-        }
+        int demoTest = -11;
+
+        for(int i=0; i<5; i++)
+            demoTest++;
         return "SpringBoot";
     }
 
